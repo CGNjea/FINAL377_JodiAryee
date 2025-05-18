@@ -14,7 +14,7 @@ A web application that helps users verify if an IP address belongs to a potentia
 
 ### Installation
 1. Clone the repository:
-   git clone: git@github.com:CGNjea/FINAL377_JodiAryee.git
+   git clone: [git@github.com:CGNjea/FINAL377_JodiAryee.git](https://github.com/CGNjea/FINAL377_JodiAryee.git)
 
 2. Install dependencies:
    npm install
