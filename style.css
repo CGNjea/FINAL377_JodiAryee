@@ -1,0 +1,69 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #7dbbdc;
+color: #333;
+}
+
+nav {
+background-color: #ffb561;
+padding: 1rem;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-right: 1rem;
+font-weight: bold;
+}
+
+nav a:hover {
+text-decoration: underline;
+}
+
+.faq-content{
+background-color: #e2e1a0;
+}
+
+.faq-content ul {
+list-style-type: none;
+padding: 0;
+}
+
+.faq-content li {
+margin-bottom: 20px;
+}
+
+.faq-content h2 {
+font-size: 1.2em;
+color: #4e4d4d;
+}
+
+.faq-content p {
+margin: 5px 0 0;
+color: #555;
+}
+
+.modal {
+display: block;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(0,0,0,0.4);
+}
+
+.signup-content, .modal-content {
+background-color: #fefefe;
+margin: 10% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 350px;
+border-radius: 8px;
+box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+position: relative;
+}

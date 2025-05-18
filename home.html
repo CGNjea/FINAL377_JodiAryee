@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are they Real?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="faq.html">FAQ</a>
+        <a href="report.html">Make a Report</a>
+    </nav>
+    <header>
+        <h1>Are they Real?</h1>
+        <h2>Check if an IP of who you're talking to is the real deal or a scammer!</h2>
+    </header>
+    <div id="signup" class="modal">
+    <div class="signup-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Sign Up</h2>
+        <form id="signupForm" onsubmit="return handleSignUp(event)">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+    </div>
+    <container class="ip-container">
+        <h3>IP Checker</h3>
+        <div class="ip-form">
+            <form id="ipForm">
+                <label for="ip">Enter IP:</label>
+                <input type="number" id="ip" name="ip" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </container>
+    <br>
+    <container class="ip-results-container">
+        <h3>Results:</h3>
+        <div class="ip-results" id="ipResults">
+            <p aria-placeholder="Loading...">Loading...</p>
+        </div>
+    </container>
+    <br>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>
