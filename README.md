@@ -14,23 +14,18 @@ A web application that helps users verify if an IP address belongs to a potentia
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/yourusername/are-they-real.git
-   ```
+   git clone: git@github.com:CGNjea/FINAL377_JodiAryee.git
+
 2. Install dependencies:
-   ```bash
    npm install
-   ```
+   nodes
 3. Create a `.env` file with your Supabase credentials:
-   ```
    SUPABASE_URL=your-supabase-url
    SUPABASE_KEY=your-supabase-key
-   ```
 
 ### Running the Application
 Start the development server:
-```bash
 npm start
-```
 
 ### API Documentation
 #### GET `/api/reports`
@@ -44,7 +39,6 @@ npm start
       "reason": "Phishing attempt"
     }
   ]
-  ```
 
 #### POST `/api/reports`
 - Submit a new IP report
@@ -56,7 +50,6 @@ npm start
     "platform": "tinder",
     "reason": "Fake profile"
   }
-  ```
 
 ### Known Issues
 - IP geolocation may not be 100% accurate
