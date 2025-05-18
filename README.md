@@ -54,7 +54,8 @@ npm start
 ### Known Issues
 - IP geolocation may not be 100% accurate
 - No user authentication system yet
-- Json files may be incomplete due to personal device issues so attepmpt installing Nodes.js through Command Prompt 
+- Json files may be incomplete due to personal device issues so attepmpt installing Nodes.js through Command Prompt
+- Substancial reports need to be made before the database can identify scammers
 
 ### Future Development
 - Implement IP reputation scoring
